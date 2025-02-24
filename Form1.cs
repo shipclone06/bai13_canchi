@@ -24,6 +24,10 @@ namespace bai13_canchi
 
             string giatritrave = canArr[Convert.ToInt32(txtnam.Text) % 10] + " " + chiArr[Convert.ToInt32(txtnam.Text) % 12];
             txtcanchi.Text = giatritrave;
+            for (int i = 2000; i <= 2050; i++)
+            {
+                lstnam.Items.Add(i + " - " + canArr[i % 10] + " " + chiArr[i % 12]);
+            }
         }
 
         private void btnexit_Click(object sender, EventArgs e)
@@ -33,13 +37,15 @@ namespace bai13_canchi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           for (int i = 2000; i <= 2050; i++) {
-                lstnam.Items.Add(i+ "-" + );
+           
+
         }
-    }
+
 
         private void nam_Click(object sender, EventArgs e)
         {
 
         }
+    }
+
     }
