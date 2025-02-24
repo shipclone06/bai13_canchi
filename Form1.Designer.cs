@@ -39,28 +39,31 @@
             // 
             // btntinh
             // 
-            this.btntinh.Location = new System.Drawing.Point(221, 77);
+            this.btntinh.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btntinh.Location = new System.Drawing.Point(169, 63);
             this.btntinh.Name = "btntinh";
             this.btntinh.Size = new System.Drawing.Size(92, 49);
             this.btntinh.TabIndex = 0;
             this.btntinh.Text = "tinh";
-            this.btntinh.UseVisualStyleBackColor = true;
+            this.btntinh.UseVisualStyleBackColor = false;
             this.btntinh.Click += new System.EventHandler(this.btntinh_Click);
             // 
             // btnexit
             // 
-            this.btnexit.Location = new System.Drawing.Point(221, 146);
+            this.btnexit.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnexit.Location = new System.Drawing.Point(169, 118);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(92, 46);
             this.btnexit.TabIndex = 0;
             this.btnexit.Text = "exit";
-            this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.UseVisualStyleBackColor = false;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // nam
             // 
             this.nam.AutoSize = true;
-            this.nam.Location = new System.Drawing.Point(12, 77);
+            this.nam.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.nam.Location = new System.Drawing.Point(28, 81);
             this.nam.Name = "nam";
             this.nam.Size = new System.Drawing.Size(29, 13);
             this.nam.TabIndex = 1;
@@ -70,7 +73,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 146);
+            this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label2.Location = new System.Drawing.Point(15, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 1;
@@ -78,22 +82,23 @@
             // 
             // txtcanchi
             // 
-            this.txtcanchi.Location = new System.Drawing.Point(86, 146);
+            this.txtcanchi.Location = new System.Drawing.Point(63, 129);
             this.txtcanchi.Name = "txtcanchi";
             this.txtcanchi.Size = new System.Drawing.Size(100, 20);
             this.txtcanchi.TabIndex = 2;
             // 
             // txtnam
             // 
-            this.txtnam.Location = new System.Drawing.Point(86, 77);
+            this.txtnam.Location = new System.Drawing.Point(63, 78);
             this.txtnam.Name = "txtnam";
             this.txtnam.Size = new System.Drawing.Size(100, 20);
             this.txtnam.TabIndex = 2;
             // 
             // lstnam
             // 
+            this.lstnam.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.lstnam.FormattingEnabled = true;
-            this.lstnam.Location = new System.Drawing.Point(343, 77);
+            this.lstnam.Location = new System.Drawing.Point(267, 38);
             this.lstnam.Name = "lstnam";
             this.lstnam.Size = new System.Drawing.Size(122, 160);
             this.lstnam.TabIndex = 3;
@@ -102,7 +107,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(408, 219);
             this.Controls.Add(this.lstnam);
             this.Controls.Add(this.txtnam);
             this.Controls.Add(this.txtcanchi);
